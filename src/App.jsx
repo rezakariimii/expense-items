@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import ExpenseItems from "./components/ExpenseItems";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <ExpenseItems />
     </div>
   );
 }
